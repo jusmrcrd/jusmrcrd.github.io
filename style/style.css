@@ -512,6 +512,16 @@ li {
     margin-top: auto;
     padding-right: 400px;
   }
+
+
+  .midzao{
+    width: 100%;
+    height: 50px;
+    margin-top: 250px;
+    margin-bottom: 70px;
+  }
+
+  
 }
 
 @media only screen and (max-width : 950px) {
@@ -548,13 +558,30 @@ li {
     width: 23%;
     height: 15%;
   }
+
+  .midzao{
+    margin-top: 50px;
+  }
+
 }
+
+@media only screen and(max-width:950px) {
+  
+  .mid_lid{
+    width: 100%;
+    height: 20%;
+    margin-top: 100px; 
+      
+  }
+
+}
+
 
 .mid_lid{
   width: 100%;
   height: 20%;
+  margin-top: 250px; 
 }
-
 
 .footer {
   width: 100%;
