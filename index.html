@@ -1,194 +1,130 @@
 <!DOCTYPE html>
-<html lang="pt" dir="ltr">
-  
+<html lang="en">
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width,initial-scale=1">
-  <title>Ricardo Martins Portfolio</title>
-  <link rel="icon" href="img/pngegg.png">
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
-  <link rel="stylesheet" href="/style/style.css">
-  
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Josefin+Slab:ital,wght@0,100..700;1,100..700&display=swap" rel="stylesheet">
-
-  <link href="https://fonts.googleapis.com/css2?family=Arizonia&family=Montserrat:wght@400;800&display=swap" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css" />
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.1/css/all.min.css">
-  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
-  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ricardo Martins | Back-end Developer</title>
+    
+    <link rel="icon" href="img/pngegg.png">
+    
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    
+    <link rel="stylesheet" href="style/style.css"> 
 </head>
-<body class="container-fluid body_section">
-        <header>
-              <nav class="navbar navbar-expand-lg navbar-dark ">
-                <a draggable="false" style="width: 25%; height: 5%;" href="index.html" ><img src="/img/signature.png" draggable="false" ></a>
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                  <span class="navbar-toggler-icon"></span>
-                </button>
+<body>
+
+    <header class="container">
+        <nav class="navbar navbar-expand-lg navbar-dark">
+            <a class="navbar-brand" href="#">
+                <img src="img/logo_definitive.png" alt="Logo RM" class="signature-logo">
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item"><a class="nav-link" href="#inicio">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#habilidades">Skills</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#educacao">Education</a></li>
+                    <li class="nav-item"><a class="nav-link" href="https://github.com/jusmrcrd" target="_blank" rel="noopener noreferrer">Projects</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <main class="container">
         
-                <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                  <ul class="navbar-nav ml-auto colori">
-                    <li class="nav-item">
-                      <a class=" headerachor" href="index.html">Inicio</a>
-                    </li>
-                    <li class="nav-item">
-                      <a class=" headerachor" href="#Skill">Habilidades</a>
-                    </li>
-                    <li class="nav-item">
-                      <a class=" headerachor" href="#Education">Educação</a>
-                    </li>
-                    <li class="nav-item">
-                      <a class=" headerachor" href="">Projetos</a>
-                    </li>
-                  </ul>
-              </nav>
-        </header>
-
-          <section id = "Home">
-              <div class="row column1">
-                <div class="col-lg-6 col-md-6 first-image">
-                    <img class = "boyimage" src="Image/20200630_162659.gif" alt="">
-                </div>  
-                  <div class="col-lg-6 section-1">
-                    <div class="Hello">
-                        <p>Hello All! I'm <span class ="msg " id="msgtag">Ricardo Martins</span></p>
-                    </div> 
-                      <p>Developer com foco em back-end, proficiente em Java, frameworks como Spring, POO com padrões de projeto e serviços escaláveis de arquitetura distribuída. Experiência em bancos relacionais SQL, como PostgreSQL, MySQL e SQLite, e NoSQL, como CouchDB e MongoDB.<span class="tagshov"> #JPA </span><span class="tagshov">#Akka </span><span class="tagshov">#Docker </span><span class="tagshov">#Redis </span><span class="tagshov">#Node.js </span><span class="tagshov">#HTTP2 </span><span class="tagshov">#RESTful </span><span class="tagshov">#API </span><span class="tagshov">#gRPC </span><span class="tagshov">#Pingora </span><span class="tagshov">#Postman </span><span class="tagshov">#Websockets </span><span class="tagshov">#MQTT </span><span class="tagshov">#GraphQL </span><span class="tagshov">#Kafka </span><span class="tagshov">#DataOriented </span> <span class="tagshov">#JWT </span> <span class="tagshov">#OAuth2 </span> <span class="tagshov">#Macaroons </span></p>
-
-                      <div class="buton_bg">   
-                        <div class="radio_buton"> 
-                            <a class="btn" href="https://www.instagram.com/devcmts_/" target=_blank>
-                              <i class="fab fa-instagram"></i>
-                            </a>
-                            <a class="btn" href="https://www.linkedin.com/in/ricardo-martins-jusmrcrd/" target=_blank>
-                              <i class="fab fa-linkedin" aria-hidden="true"></i>
-                            </a>
-                            <a class="btn" href="https://github.com/jusmrcrd" target=_blank>
-                              <i class="fab fa-github"></i>
-                            </a>
-                            <a class="btn" href="mailto:jusmrcrdcode@zohomail.com?subject=Contato&body= digite oque deseja" target=_blank>
-                              <i class="fas fa-envelope"></i>
-                            </a>
-
-                        </div>
-                        <!--<div class="btn-center">
-                            <a class="btn2" href="" target=_blank>
-                              <p>Contato</p>
-                            </a>
-                            <a class="btn2" href="" target=_blank>
-                              <p>Curriculo</p>
-                            </a>
-                        </div> -->
+        <section id="inicio" class="home-section text-center">
+            <div class="row justify-content-center w-100">
+                <div class="col-lg-9">
+                    <h1 class="greeting">Hello! I'm <span class="highlight">Ricardo Martins</span></h1>
+                    <p class="bio">
+                        Back-end focused developer, proficient in Java, frameworks like Spring, OOP with design patterns, and scalable distributed architecture services. Experienced in SQL relational databases (PostgreSQL, MySQL) and NoSQL (MongoDB).
+                    </p>
+                    <div class="skills-tags justify-content-center">
+                        <span>Java</span><span>Spring</span><span>Docker</span><span>PostgreSQL</span><span>RESTful API</span><span>gRPC</span><span>Kafka</span><span>JWT</span><span>AWS</span>
                     </div>
-                  </div>
-                  <div class="col-lg-6 section-2 "><img src="img/Code typing-bro(1).svg" alt=""></div>  
-              </div>
-          </section>
+                    <div class="social-links justify-content-center">
+                        <a href="https://www.instagram.com/ricardo_stsm/" target="_blank" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                        <a href="https://www.linkedin.com/in/ricardo-jusmrcrd/" target="_blank" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a>
+                        <a href="https://github.com/jusmrcrd" target="_blank" aria-label="GitHub"><i class="fab fa-github"></i></a>
+                        <a href="https://wa.me/aaa" target="_blank" aria-label="WhatsApp"><i class="fab fa-whatsapp"></i></a> <a href="mailto:jusmrcrd@gmail.com" target="_blank" aria-label="Email"><i class="fas fa-envelope"></i></a>
+                    </div>
+                </div>
+            </div>
+        </section>
 
-          <section id=Whatido>
+        <section id="habilidades" class="content-section">
+            <h2 class="section-title">Skills and Methodologies</h2>
             
-            <div class="row feature-2">
-              <div class="col-lg-6 col-md-6 feature-web" >
-                <div class="metodologia">
-                <h1 class="Feature-Heading" id="Skill">Metodologias de Programação</h1>
-                  <div class="Data-Analytic">
-                    <p class="Features-paragraph">Conhecimento com as metodologias de desenvolvimento como Scrum para noções de organização de trabalho com sprints e reuniões diárias, e noções do dia a dia de desenvolvimento.<br></br> </p>
-                    <p class="Features-paragraph">Extreme Programming (XP): tenho conhecimento das ideias de programação em pares, programação orientada a testes (TDD) e programação orientada a comportamento, com entrega contínua e frequente, rodadas de feedback e entregas rápidas. </p>
-                  </div>
-                </div>
-              </div>
-              <div class="col-lg-6 col-md-6 Feature-second-image "> <img class="Feature-svg-image2" src="img/Programmer-rafiki.svg"
-                  alt="">
-              </div>
-            </div>
-
-              <div class="row feature-1">
-                <div class="col-lg-6 col-md-6 Feature-first-image ">
-                  <img class="Feature-svg-image" src="/img/Secure Server-rafiki.svg" alt="">
-                </div>
-                <div class="col-lg-6 col-md-6">
-                  <div class="metodologia">
-                    <h1 class="Feature-Heading">Modelagem de Dados</h1>
-                    <div class="Data-Analytic">
-                      <p class="Features-paragraph">
-                        Na parte de modelagem de dados, uso PostgreSQL, MySQL e bancos não relacionais como MongoDB. Tenho experiência na criação de tabelas, consultas SQL complexas e otimização de desempenho em bancos relacionais.<br></br>
-                      </p>
-                      <p >
-                        Nos bancos não relacionais, foco na estrutura flexível e escalabilidade. Esse conhecimento me capacita a projetar sistemas de banco de dados robustos e eficientes para diversas aplicações empresariais.
-                      </p>
+            <div class="feature-item text-center">
+                <div class="row justify-content-center">
+                    <div class="col-lg-8">
+                        <h3>Data Modeling</h3>
+                        <p>I use PostgreSQL, MySQL, and NoSQL databases like MongoDB. I have experience in creating tables, complex SQL queries, and performance optimization to design robust and efficient systems.</p>
                     </div>
-                  </div>
                 </div>
-              </div>
-              <div class="row feature-2">
-                  <div  class="col-lg-6 col-md-6 feature-coding">
-                    <div class="metodologia">
-                        <h1 style="margin: 70px 0 30px 0;" class="Feature-Heading">Estrutura de dados e Algoritimos</h1>
-                        <div style="margin: 40px 0 0px 0;" class="Data-Analytic">
-                          <p> Tenho forte conhecimento em estruturas de dados e algoritmos, incluindo listas, pilhas, filas, árvores e grafos. Estudo a eficiência de algoritmos de busca e ordenação, bem como a notação Big O, para resolver problemas complexos de forma otimizada.
-
-                            Issopermite escrever códigos eficientes cria possibilidade de melhora na performance de aplicações.
-                          </p>                        
-                          <p class="Features-paragraph">
-                            Conhecimentos em programação orientada a objetos e desenvolvimento e modelagem de sistemas web em Java o que me permite desenvolver aplicações robustas, escaláveis e de fácil manutenção, seguindo as melhores práticas da indústria de software.
-                          <p>
-                        </div>
-                  </div>
-                </div>  
-                <div class="col-lg-6 col-md-6 Feature-second-image ">
-                  <img class = "Feature-svg-image3" src="img/Developer activity-amico.svg" alt="">
-                </div>
-              </div>
-          </section>
-          
-          <h1 class="h1zin" id="Education">Educação</h1>
-          <section class="aulas" id="school">
-            <div class="shoolcard">
-              <div class="row column1">
-                <div class="sh">
-                  <img src="/img/cruzeiro-do-sul.svg">
-                </div>
-                <div class="textsh">
-                  <p>Cruzeiro do sul <br>Tecnólogo em Análise de sistemas <br>Fevereiro 2024 - Abril 2026</br></p>
-                </div>
-              </div>
-              <div class="line"></div>
-              <div class="row column1">
-                <div class="sh im ">
-                  <img class="im"src="/img/image.png">
-                </div>
-                <div class="textsh">
-                  <p>Universidade Federal do Rio Grande do Norte <br>PROGRAMADOR WEB <br>Junho de 2020 - Novembro de 2020</br></p>
-                </div>
-              </div>
-              <div class="line"></div>
             </div>
-          </section>
-          <section class="midzao">
-          <div class="mid_lid"> 
-            <ul class="dev-icon">
-              <li><img style="width: 90px; height: 75px;"
-                  src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/java/java-original-wordmark.svg" /></li>
-              <li><img style="width: 90px; height: 70px;"
-                  src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/spring/spring-original-wordmark.svg" />
-              <li><img style="width: 100px; height: 90px;"
-                  src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/mysql/mysql-plain-wordmark.svg" /></li>
-              <li><img style="width: 100px; height: 80px;"
-                  src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/mariadb/mariadb-original.svg" /></li>
-              <li><img style="width: 80px; height: 70px;"
-                  src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/postgresql/postgresql-original.svg" /></li>
-              <li>
-                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/docker/docker-plain-wordmark.svg" />
-              </li>
-              <li><img style="width: 80px; height:65px; "
-                  src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/postman/postman-original.svg" />
-              </li>
-            </ul>
-          </div>
-          </section>
-      <footer class=footer>Made with by Ricardo </footer>
+
+            <div class="feature-item text-center">
+                <div class="row justify-content-center">
+                    <div class="col-lg-8">
+                        <h3>Programming Methodologies</h3>
+                        <p>Knowledge of methodologies such as Scrum for organizing work with sprints, and Extreme Programming (XP), with practices like TDD, pair programming, and continuous delivery for agile development.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="tecnologias" class="content-section">
+            <h2 class="section-title">Technologies</h2>
+            <div class="tech-container">
+                <div class="skills-tags justify-content-center">
+                    <span>Java</span>
+                    <span>Spring Boot</span>
+                    <span>MySQL</span>
+                    <span>PostgreSQL</span>
+                    <span>Docker</span>
+                    <span>Postman</span>
+                </div>
+            </div>
+        </section>
+
+        <section id="educacao" class="content-section">
+            <h2 class="section-title">Education</h2>
+            <div class="education-list">
+                <div class="education-item">
+                    <img src="img/cruzeiro-do-sul.svg" alt="Cruzeiro do Sul Logo" class="education-logo">
+                    <div class="education-details">
+                        <h4>Cruzeiro do Sul</h4>
+                        <p>Technologist in Systems Analysis<br>February 2024 - April 2026</p>
+                    </div>
+                </div>
+                <div class="education-item">
+                    <img src="img/image.png" alt="UFRN Logo" class="education-logo">
+                    <div class="education-details">
+                        <h4>Federal University of Rio Grande do Norte</h4>
+                        <p>Web Programmer<br>June 2020 - November 2020</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <footer class="text-center">
+        <p>Made by Ricardo Martins</p>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+
 </body>
 </html>
